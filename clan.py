@@ -16,7 +16,7 @@ class Cletka:
     number = None
     x = None
     y = None
-    sprite_obj = pyglet.sprite.Sprite(sprite[1])
+    sprite_obj = pyglet.sprite.Sprite(sprite[0])
     def __init__(self, number: int, x: int, y: int):
         self.number = number
         self.x = x
