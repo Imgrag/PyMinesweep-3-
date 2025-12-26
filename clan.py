@@ -1,5 +1,4 @@
 import pyglet
-
 sprite = [pyglet.image.load('ass/default.png'),
             pyglet.image.load('ass/empty0.png'),
             pyglet.image.load('ass/empty1.png'),
@@ -21,4 +20,4 @@ class Cletka:
         self.number = number
         self.x = x
         self.y = y
-        sprite_obj = pyglet.sprite.Sprite(sprite[0], x=self.x, y=self.y)
+        self.sprite_obj = pyglet.sprite.Sprite(sprite[0], x=self.x, y=self.y)
